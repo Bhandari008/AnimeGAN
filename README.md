@@ -9,5 +9,7 @@ A flask app using pretrained AnimeGAN models.
 * run `pip install -r requirements.txt` to install the necessary dependencies
 * run `flask run` 
 
+**Note: The uploaded images and changed images will be saved to `static\images\original` and `static\images\original`**
+
 # References
 https://github.com/TachibanaYoshino/AnimeGAN
