@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <h2>Upload a Image</h2>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <label for="items">Choose an item:</label>
+        <select id="items" name="items">
+            <option value="AnimeGAN_Hayao">Hayao</option>
+            <option value="AnimeGANv2_Hayao">Hayao V2</option>
+            <option value="AnimeGANv2_Paprika">Paprika</option>
+            <option value="AnimeGANv2_Shinkai">Shinkai</option>
+        </select>
+      <input type="file" name="file">
+      <br><br>
+      <input type="submit" value="Upload">
+    </form>
+  </body>
+</html>
